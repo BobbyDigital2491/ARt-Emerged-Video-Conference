@@ -1,7 +1,7 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/R8CIO1DZ2b8" target="_blank">
-      <img src="https://github.com/adrianhajdin/zoom-clone/assets/67959015/f09a8421-67d3-45ce-b9bc-a791cdc2774b" alt="Project Banner">
+    <a href="https://landenprather.com/art-emerged" target="_blank">
+      <img src="https://img1.wsimg.com/isteam/ip/67f024bd-8725-4051-8f8c-647aad4b7d78/IMG_0053.png/:/rs=w:84,h:84,cg:true,m/cr=w:84,h:84/qt=q:95" alt="Project Banner">
     </a>
   
   <br />

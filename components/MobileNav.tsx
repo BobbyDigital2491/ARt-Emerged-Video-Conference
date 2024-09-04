@@ -23,15 +23,15 @@ const MobileNav = () => {
             className="cursor-pointer sm:hidden"
           />
         </SheetTrigger>
-        <SheetContent side="left" className="border-none bg-dark-1">
+        <SheetContent side="left" className="border-none bg-black">
           <Link href="/" className="flex items-center gap-1">
             <Image
-              src="/icons/logo.svg"
+              src="/icons/nobg.png"
               width={32}
               height={32}
-              alt="yoom logo"
+              alt="ARt Emerged logo"
             />
-            <p className="text-[26px] font-extrabold text-white">YOOM</p>
+            <p className="text-[26px] font-extrabold text-white">ARt Emerged</p>
           </Link>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild>
@@ -47,7 +47,7 @@ const MobileNav = () => {
                         className={cn(
                           'flex gap-4 items-center p-4 rounded-lg w-full max-w-60',
                           {
-                            'bg-blue-1': isActive,
+                            'bg-yellow-1': isActive,
                           }
                         )}
                       >

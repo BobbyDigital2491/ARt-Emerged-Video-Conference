@@ -11,10 +11,10 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "YOOM",
+  title: "ARt Emerged Video Conference",
   description: "Video calling App",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "/icons/nobg.png",
   },
 };
 
@@ -26,8 +26,8 @@ export default function RootLayout({
       <ClerkProvider
         appearance={{
           layout: {
-            socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/yoom-logo.svg",
+            socialButtonsVariant: "blockButton",
+            logoImageUrl: "/icons/nobg.png",
           },
           variables: {
             colorText: "#fff",
@@ -38,7 +38,7 @@ export default function RootLayout({
           },
         }}
       >
-        <body className={`${inter.className} bg-dark-2`}>
+        <body className={`${inter.className} bg-black`}>
           <Toaster />
           {children}
         </body>
