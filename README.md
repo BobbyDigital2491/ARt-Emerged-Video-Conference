@@ -52,9 +52,7 @@
 
 👉 **Responsive Design**: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
 
-and many more, including code architecture and reusability. 
-<details>
-<summary><code>app/globals.css</code></summary>
+
 
 ```css
 @tailwind base;
@@ -174,7 +172,7 @@ and many more, including code architecture and reusability.
 </details>
 
 <details>
-<summary><code>tailwind.config.ts</code></summary>
+
 
 ```typescript
 import type { Config } from 'tailwindcss';
@@ -250,7 +248,7 @@ export default config;
 </details>
 
 <details>
-<summary><code>components/MeetingCard.tsx</code></summary>
+
 
 ```typescript
 "use client";
