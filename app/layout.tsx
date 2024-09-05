@@ -28,11 +28,12 @@ export default function RootLayout({
           layout: {
             socialButtonsVariant: "blockButton",
             logoImageUrl: "/icons/nobg.png",
+            logoLinkUrl: "#fff",
           },
           variables: {
-            colorText: "#fff",
-            colorPrimary: "#0E78F9",
-            colorBackground: "#1C1F2E",
+            colorText: "#000000",
+            colorPrimary: "#ff1110",
+            colorBackground: "#FFD700",
             colorInputBackground: "#252A41",
             colorInputText: "#fff",
           },
