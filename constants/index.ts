@@ -15,7 +15,13 @@ export const sidebarLinks = [
     route: '/previous',
     label: 'Previous',
   },
-  
+
+  {
+    imgURL: '/icons/schedule.svg',
+    route: '/schedule',
+    label: 'Schedule',
+  },
+
   {
     imgURL: '/icons/add-personal.svg',
     route: '/personal-room',

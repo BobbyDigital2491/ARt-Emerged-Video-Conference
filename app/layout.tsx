@@ -37,6 +37,15 @@ export default function RootLayout({
             colorInputBackground: "#252A41",
             colorInputText: "#fff",
           },
+          elements: {
+            socialButtonsBlockButton:{
+              backgroundColor: '#ff1110',
+              '&:hover, &:focus, &:active': {
+                backgroundColor: '#ff1110',
+              }
+            }
+          }
+          
         }}
       >
         <body className={`${inter.className} bg-black`}>
